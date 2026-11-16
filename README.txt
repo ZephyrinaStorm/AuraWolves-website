@@ -1,12 +1,16 @@
-Aura Wolf combined update: social media + four girlfriend photos and names.
+AURA WOLF — SOULPAWS WOLVES STORY UPDATE
 
-Upload the extracted index.html (replace existing), social.js, girlfriends-gallery.js, and assets/girlfriends folder to the ROOT of ZephyrinaStorm/Web-pai. Preserve all other existing files. Commit to main. Render will automatically redeploy.
+GitHub: https://github.com/ZephyrinaStorm/Web-pai
 
-My Story: https://aura-wolf-community.onrender.com/#story
-Social Media: https://aura-wolf-community.onrender.com/#social
+1. Extract this ZIP.
+2. Upload soulpaws-story.js to the GitHub repository root.
+3. Upload assets/soulpaws-wolves-story.png to the assets folder.
+4. Edit index.html and add this line AFTER the existing script.js, social.js and girlfriends-gallery.js script tags, immediately before </body>:
 
-Girlfriends in image order:
-1. Blackbury Coltz
-2. Soul paw wolves
-3. Friendzy34
-4. Royalgayness
+   <script src="/soulpaws-story.js" defer></script>
+
+5. OPTIONAL but recommended: Remove the older girlfriends-gallery.js script tag from index.html (and its old image files if no longer used). The new story page does not display those profiles.
+6. Commit to main; Render should auto-deploy.
+7. Check https://aura-wolf-community.onrender.com/#story
+
+No changes to your Home, Events, Discord or Social Media pages are required.
